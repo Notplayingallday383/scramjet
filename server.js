@@ -96,6 +96,7 @@ try {
 
 const watch = spawn("pnpm", ["rspack", "-w"], {
 	detached: true,
+	shell: true,
 	cwd: process.cwd(),
 });
 
